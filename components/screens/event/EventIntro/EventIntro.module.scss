@@ -1,0 +1,16 @@
+.title {
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    margin-bottom: 15px;
+  }
+  .subtitle {
+    margin: 15px 0 30px;
+  }
+}

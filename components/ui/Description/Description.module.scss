@@ -1,0 +1,14 @@
+.main {
+  max-width: 865px;
+  font-family: 'Roboto';
+  font-size: 17px;
+  line-height: 28px;
+  color: var(--gray);
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .main {
+    font-size: 15px;
+  }
+}

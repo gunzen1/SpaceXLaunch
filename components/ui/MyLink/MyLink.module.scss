@@ -1,0 +1,21 @@
+.main {
+  height: 100%;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.25);
+  }
+}
+
+.link {
+  padding: 0 33px;
+  line-height: 70px;
+  color: var(--grey);
+
+  &:hover {
+    color: var(--light);
+  }
+
+  &_active {
+    color: var(--light);
+  }
+}

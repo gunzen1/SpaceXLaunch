@@ -1,0 +1,29 @@
+.rocket {
+  text-align: center;
+  color: var(--light);
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    font-weight: 400 !important;
+    margin-bottom: 20px;
+  }
+
+  &__age {
+    font-weight: 800 !important;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rocket {
+    &__subtitle {
+      margin-bottom: 10px;
+    }
+    &__age {
+      margin-bottom: 25px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.btn {
+  display: inline-block;
+  min-width: 320px;
+  background: var(--btn-background);
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: var(--light);
+  text-transform: capitalize;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--background-active);
+  }
+
+  &_disabled {
+    opacity: 0.75;
+    pointer-events: none;
+    background: var(--grey);
+    cursor: default;
+  }
+}
+
+.link {
+  display: block;
+  padding: 30px 80px;
+  
+  &_disabled {
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .link {
+    padding: 20px 60px;
+  }
+}

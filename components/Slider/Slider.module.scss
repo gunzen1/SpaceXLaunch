@@ -1,0 +1,72 @@
+.main {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.navigation {
+  .arrow {
+    width: 56px;
+    fill: var(--light);
+    transition: all 0.15s linear;
+
+    cursor: pointer;
+
+    &:hover {
+      fill: var(--space);
+    }
+  }
+
+  .button:first-child {
+    margin-right: 46px;
+  }
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.view {
+  display: flex;
+  transition: transform 0.6s linear;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .main {
+    margin-bottom: 140px;
+  }
+  
+  .header {
+    justify-content: center;
+    
+    &__navigation {
+      position: absolute;
+      bottom: -70px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .title {
+    margin-bottom: 25px;
+  }
+
+  .navigation {
+    .button:first-child {
+      margin-right: 35px;
+    }
+  }
+}

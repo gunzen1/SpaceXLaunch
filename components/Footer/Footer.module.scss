@@ -1,0 +1,21 @@
+.main {
+  background-color: var(--main-layout);
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: var(--gray);
+}
+
+@media screen and (max-width: 1200px) {
+  .inner {
+    padding: 0 25px;
+  }
+}

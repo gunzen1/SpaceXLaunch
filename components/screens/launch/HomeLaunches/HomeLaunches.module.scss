@@ -1,0 +1,26 @@
+.launches {
+	text-align: center;
+	&__inner {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	&__title {
+		margin-bottom: 40px;
+	}
+
+	&__alert {
+		margin: 0 auto;
+		display: inline-block;
+		padding: 25px 50px;
+		border: 1px solid var(--light);
+		font-weight: 700;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.inner {
+		justify-content: center;
+	}
+}
